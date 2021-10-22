@@ -1,0 +1,163 @@
+    body {
+    	background: darkslategray;
+    	display: flex;
+    	flex-wrap: wrap;
+		width: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: darkslategray;
+		background-image: url('nkmvjd.jp');
+		background-siz: contain ;
+		background-repeat: repeat;
+		color: white;
+		text-align: justify;
+		position: relative;
+		margin-top: 30px;
+	}
+	.topbar {
+		overflow: hidden;
+		width: 95%;
+		height: 51px;
+		display: block;
+		margin : auto;	
+	}
+	.topbar a, .name2 {
+		float: right;
+		color: #f2f2f2;
+		font-size: 20px;
+		text-align: right;
+		padding: 14px 16px; 
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.topbar .btn1 {
+		background-color: transparent;
+		color: white;
+		border-radius: 20px;
+		border: 2px solid greenyellow;
+		padding: 10px 16px;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+	}
+	.topbar a:hover {
+		background-color: #ddd;
+		color: black;
+		border-radius: 25px;
+	}
+	.topbar a.active {
+		border-radius: 25px;
+		background-color: #4CAF50;
+		color: white;
+	}
+	.name2 {
+		float: left;
+		font-size: 50px;
+		font-family: "sofia", sans-serif;
+		margin-top: -29px;
+
+
+	}
+	.icon1 {
+		border-radius: 50%;
+		display: block;
+		margin: auto;
+		padding: 5px;
+		width: 150px;
+	}
+	.name1 {
+		text-shadow: 2px 2px 5px grey;
+		font-size: 25px;
+	}
+	.img1 {
+		width: 38%;
+		border-radius:2% 25%;
+	}
+	.img1 {
+		righ: 50%;
+		padding: 0px 10px;
+		margin: 0px 10px;
+	}
+	.welcome {
+		content: "";
+		clear: both;
+		display: table;
+		background-color: transparent;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		min-height: 82rem;
+		float: right;
+		lef: 50%;
+		position: relative;
+	}
+	.par1 {
+		
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 35px;
+		margin-left: 5px;
+		margin-top: -10px;
+		color: aqua;
+		font-size-adjust: ;
+	}
+	.par2 {
+		font-family: fantasy;
+		font-size: 20px;
+		margin-top: ;
+		margin-left: 100px;
+	}
+	@media (min-width: 1000px) {
+		body {
+			flex-wrap: nowrap;
+		}
+		.topbar {
+
+		}
+		.par3 {
+			display: none;
+		}
+		.img1 {
+			float: left;
+		}
+		.name3 {
+			display: none;
+		}
+
+	}
+	@media (max-width: 1000px) {
+		body {
+			flex-wrap: nowrap;
+			background-image: url('Minimal Tree_2674.png');
+		}
+		.topbar {
+			margin: auto;
+			margin-left: -2%;
+
+		}
+		.topbar a {
+
+		}
+		.par3 {
+			font-size: 30px;
+			margin-left: 5px;
+			color: aqua;
+		}
+		.img1 {
+			width: 50%;
+		}
+		.par2 {
+			font-size: 23px;
+			margin-top: 10px;
+			float: right;
+		}
+		.par1 {
+			display: none;
+		}
+		.name3 {
+			color: mintcream;
+		    font-size: 40px;
+			font-family: "sofia", sans-serif;
+			margin-top: 5px;
+			margin-left: 15px;
+		}
+	}
